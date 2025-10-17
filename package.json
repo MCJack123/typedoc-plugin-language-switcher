@@ -1,6 +1,6 @@
 {
   "name": "typedoc-plugin-language-switcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adds the ability to provide multiple selectable languages in code blocks.",
   "keywords": [
     "typedoc-plugin"
@@ -12,7 +12,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@gerrit0/mini-shiki": "^3.13.1",
     "markdown-it": "^14.1.0",
     "typedoc": "^0.28.0"
